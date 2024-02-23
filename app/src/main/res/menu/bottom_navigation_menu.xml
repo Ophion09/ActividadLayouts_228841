@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/navigation_home"
+            android:title="Hom"
+            android:icon="@drawable/ic_" />
+        <item
+            android:id="@+id/navigation_dashboard"
+            android:title="Dashboard"
+            android:icon="@drawable/ic_dashboard" />
+        <item
+            android:id="@+id/navigation_notifications"
+            android:title="Notifications"
+            android:icon="@drawable/ic_notifications" />
+    </menu>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
